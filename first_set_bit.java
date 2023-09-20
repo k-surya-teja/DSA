@@ -14,7 +14,8 @@ public class first_set_bit {
         return 0;
     }
     public static void main(String[] args) {
-        int num = 7567560;
+        Scanner input = new Scanner(System.in);
+        int num = input.nextInt();
         System.out.println(solution(num));
         
     }
